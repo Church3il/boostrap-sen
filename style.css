@@ -1,0 +1,166 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+.navbar-toggler img{
+    outline: none;
+    padding: 0;
+}
+.navbar-toggler img{
+    width: 35px;
+}
+.nav-link{
+    color: #555;
+    font-weight: 600;
+    margin-left: 30px;
+}
+.wrapper{
+    margin: 50px auto;
+    border-radius: 10px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    box-shadow: 0 0 40px 2px rgba(37,73,214,0.18) ;
+}
+.text-box{
+    padding: 30px;
+}
+.text-img{
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+.text-box h1{
+    margin-top: 20%;
+    color: #c200ff;
+    text-align: center;
+}
+.text-box p{
+    margin: 50px auto;
+    color: #555;
+}
+.text-box a{
+    text-decoration: none;
+    background: #a669ce;
+    border-radius: 20px;
+    padding: 10px 20px;
+    margin-right: 30px;
+    border: 2px solid #a669ce;
+    color: white;
+}
+.btn-one:hover
+{
+    color: white !important;
+}
+.btn-two{
+    background: none;
+    color: #a669ce;
+}
+.text-img{
+    width: 100%;
+    padding: 40px;
+    text-align: right;
+}
+.wave-img{
+    width: 100%;
+    padding: 40px;
+    display: block;
+    top: 49%;
+    z-index: -1;
+    opacity: 0.3;
+}
+@media only screen and (max-width:990px)
+{
+    .wave-img
+    {
+        display: none;
+    }
+    .feature-box{
+        padding: 5px 8px;
+        margin-right: 10px;
+    }
+
+}
+.form-control{
+    border: 1px solid #c200ff;
+    border-radius: 8px;
+    padding: 12px 15px;
+    font-size: 16px;
+    transition: all o.3s ease;
+    box-shadow: 0 0 40px 2px rgba(37,73,214,0.18);
+}
+.form-control:focus{
+    border-color: #a669ce;
+    outline: none;
+    box-shadow: 0 0 6px rgba(37,73,214,0.18);
+}
+.list-group my-5 h2{
+    text-align: left;
+    text-decoration: #a669ce;
+}
+body.dark-mode{
+    background-color: #121212;
+    color: white;
+}
+.container-fluid img{
+    width: auto;
+    font-size: 30px;
+    font-weight: bold;
+    height: 50px;
+}
+.header{
+    position: absolute;
+    top:20px;
+    left:20px;
+    z-index: 1000;
+}
+.col-md-6 img{
+    text-align: center;
+}
+.feature-box h1 h2 p{
+    text-align: center;
+}
+.body{
+    text-align: center;
+}
+.feature-img{
+    width: 100%;
+    padding: 40px;
+    text-align: inherit;
+}
+.name h2{
+     color: #c200ff;
+    font-weight: 600;
+    margin-left: 30px;
+    text-align: right;
+}
+.container-fluid-logo{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px;
+}
+.logo-img{
+    height: 40px;
+    width: auto;
+}
+.logo-text{
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #c200ff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.text-box,.text-img{
+    flex: 1 1 45%;
+}
+.img-fluid{
+    max-width: 100%;
+    height: auto;
+    border: radius 8px;
+}
